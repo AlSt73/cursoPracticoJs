@@ -90,15 +90,25 @@ function calcularPerimetroTriangulo(lado1,lado2,base){
     var valorLado1 = parseInt(document.getElementById("ladoTriangulo1").value);
     var valorLado2 = parseInt(document.getElementById("ladoTriangulo2").value);
     var valorBase = parseInt(document.getElementById("baseTriangulo").value);
-    var perimetro = perimetroTriangulo(valorLado1,valorLado2,valorBase);
-    alert(perimetro);
+    
+    if(valorLado1 >0 && valorLado2 >0 && valorBase > 0){
+        var perimetro = perimetroTriangulo(valorLado1,valorLado2,valorBase);
+        alert(perimetro);
+    }else{
+        alert("Debe ingresar los valores para calcular");
+    }
 
 }
 function calcularAreaTriangulo(base,altura){
     var altura = document.getElementById("alturaTriangulo").value;
     var base = document.getElementById("baseTriangulo").value;
-    var area = areaTriangulo(altura,base);
-    alert(area);
+    
+    if(altura > 0 && base >0){
+         var area = areaTriangulo(altura,base);
+         alert(area);
+    }else{
+        alert("Debe ingresar datos para calcular");   
+    }
 }
 //FUNCIONES CALCULO Circulo
 function perimetroCirculo(radio){
@@ -113,12 +123,23 @@ function areaCirculo(radio){
 }
 function calcularPerimetroCirculo(radio){
     var valorRadio = parseInt(document.getElementById("radioCirculo").value);
-    var perimetro = perimetroCirculo(valorRadio);
-    alert(perimetro);
+    
+    if(valorRadio >0){
+        var perimetro = perimetroCirculo(valorRadio);
+        alert(perimetro);
+    }else{
+        alert("Debe ingresar el radio");   
+    }
 
 }
 function calcularAreaCirculo(radio){
     var valorRadio = parseInt(document.getElementById("radioCirculo").value);
-    var area = areaCirculo(valorRadio);
-    alert(area);
+    
+    if(valorRadio >0){
+        var area = areaCirculo(valorRadio);
+        alert(area);
+    }else{
+        alert("Debe ingresar el radio");   
+    }
+    
 }
