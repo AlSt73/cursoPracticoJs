@@ -56,15 +56,25 @@ function areaCuadrado(lado){
 }
 
 function calcularPerimetroCuadrado(lado){
-    var valorLado = document.getElementById("ladoCuadrado").value;
-    var perimetro = perimetroCuadrado(valorLado);
-    alert(perimetro);
+    var valorLado = parseInt(document.getElementById("ladoCuadrado").value);
+    
+    if(valorLado >0){
+        var perimetro = perimetroCuadrado(valorLado);
+        alert(perimetro);
 
+    }else{
+        alert("Debe ingresar un numero");
+    }
 }
 function calcularAreaCuadrado(lado){
     var valorLado = document.getElementById("ladoCuadrado").value;
-    var area = areaCuadrado(valorLado);
-    alert(area);
+    
+    if(valorLado >0){
+        var area = areaCuadrado(valorLado);
+        alert(area);
+    }else{
+        alert("Debe ingresar un numero");
+    }
 }
 //FUNCIONES CALCULO Triangulo
 function perimetroTriangulo(lado1,lado2,base){
