@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(241, 241, 241);
+    
+}
+
+#wrapper{
+    max-width: 50%;
+    height: 550px;
+    padding: 7px;
+    margin-left: 25%
+}
+
+#wrapper h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: solid;
+    font-size: 2.4em;
+
+}
+#middleContent h2{
+    font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva;
+    text-align: center;
+    margin-top: 66px;
+}
+#middleContent form {
+    padding: 20px;
+    max-width: 230px;
+    margin-left: 340px;
+    border: 3px solid rgb(126, 161, 226);
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(0 0 0/25%);
+
+}
+#middleContent form label{
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+    max-width: 100%;
+}
+#middleContent form input{
+    margin: 15px 0 15px 0;
+    padding: 10px;
+    font-size: 20px;
+    width: 90%;
+    border: 1px solid lightgray;
+    box-shadow: inset 0px 3px 4px rgb(0 0 0/25%);
+    border-radius: 4px;
+    background-color: #F4F4F4;
+}
+#middleContent form button{
+    max-width: auto;
+    height: 40px;
+    width: 93%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border: none;
+    background-color: rgba(139, 184, 216, 0.747);
+    margin-left: 8px;
+    font-family: 'Lucida Sans';
+}
+#middleContent form button:hover{
+   background: rgb(182, 206, 223);
+}
+
+#card {
+    width: 350px;
+    border: 1px solid black ;
+    margin-left: 290px;
+    margin-top: 20px;
+    background-color:white;
+    height: 345px
+}
+#card h2{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left;
+    float: left;
+    margin-left: 10px;
+
+}
+#card #desc{
+    font-family: 'Lucida Sans';
+    color: blue;
+    margin-left: 220px;
+    font-size: 22px;
+
+}
+#card img{
+    width: 180px;
+    height: 200px;
+    margin-left: 25%;
+    margin-bottom: 25px;
+    border: 1px dashed black;
+}
+#card #pOriginal {
+    font-size: 22px;
+    font-family: 'Lucida Sans';
+    padding: 10px;
+    margin-left:20px;
+    margin-bottom: 30px;
+    color: gray;
+    text-decoration: line-through;
+    
+}
+#card #pFinal {
+    font-size: 22px;
+    font-family: 'Lucida Sans';
+    padding: 10px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    color: rgb(0, 100, 250);
+}

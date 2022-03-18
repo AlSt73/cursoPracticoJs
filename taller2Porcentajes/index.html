@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes</title>
+    <script src="./porcentaje.js"></script>
+    <link rel="stylesheet" href="./style/styles.css"/>
+</head>
+<body>  
+    <div id="wrapper">
+        <h1>Taller de porcentajes</h1>
+        <div id="middleContent">
+            <h2>Calcular descuento</h2>
+            <form>
+                <label>Ingresa el precio:</label>
+                <input type="number" id="price"/>
+                <label>Ingresa el cupón:</label>
+                <!-- <input type="number" id="discount"/>
+                <label>Ingresa el descuento</label> -->
+                <input type="text" id="cupon"/>
+                <button type="button" onclick="calcularPrecio()">Calcular descuento</button>
+            </form>
+            <div id="card">
+                <h2>Xbox One</h2>
+                <h3 id="desc">0%</h3>
+                <img src="img/img1.png" />
+                <span id="pOriginal"></span>
+                <span id="pFinal"></span>
+            </div>
+        </div>
+        
+    </div>
+
+
+    </form>
+</body>
+</html>
