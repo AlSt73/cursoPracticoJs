@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <script type="text/javascript" src="./proyecto.js"></script>
+    <link rel="stylesheet" href="./styles/style.css"/>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1>Calcular Interes simple y compuesto</h1>
+        </div>
+        <div id="middleContent" class="clearfix">
+            <div >
+                <form >
+                
+                    <input type="text" id="capital" placeholder="Ingresa Capital"/>
+                    
+                    <input type="text" id="tiempo" placeholder="Ingresa Tiempo en meses"/>
+                    
+                    <input type="text" id="interes" placeholder="Ingresa Interes"/>
+                    <button type="button" onclick="calcularInteres()">Simular inversión</button>
+                </form>
+            </div>
+            <div id="resultado" >
+                <h2>Resultado</h2>
+                <div id="r1">
+                    <h3>Interes Simple</h3>
+                    <span id="iSimple" class="spann"></span>
+                </div>
+                <div id="r2">
+                    <h3>Interes Compuesto</h3>
+                    <span id="iCompuesto" class="spann"></span>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
